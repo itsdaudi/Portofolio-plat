@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 import projectList from  "./components/ProjectList"
+import ProjectForm from './components/ProjectForm'
 
 function App() {
   const [count, setCount] = useState(0)
